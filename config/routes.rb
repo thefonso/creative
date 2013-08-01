@@ -1,4 +1,52 @@
 Creative::Application.routes.draw do
+  get "contact/index"
+
+  get "customer_lounge/overview"
+
+  get "customer_lounge/sports_bar"
+
+  get "customer_lounge/music"
+
+  get "customer_lounge/stu_contact"
+
+  get "customer_lounge/locker_room"
+
+  get "customer_lounge/movies"
+
+  get "team_creative/overview"
+
+  get "team_creative/a_e"
+
+  get "team_creative/f_j"
+
+  get "team_creative/k_o"
+
+  get "team_creative/p_t"
+
+  get "team_creative/u_z"
+
+  get "team_creative/blogs"
+
+  get "clients/index"
+
+  get "idea_center/staff_picks"
+
+  get "idea_center/portfolio"
+
+  get "idea_center/case_histories"
+
+  get "aboutus/overview"
+
+  get "aboutus/services"
+
+  get "aboutus/design"
+
+  get "aboutus/print"
+
+  get "aboutus/international"
+
+  get "aboutus/innovations"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
