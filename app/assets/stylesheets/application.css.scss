@@ -40,6 +40,9 @@ a{
   padding-top:20px;
   padding-bottom:20px;
 }
+.container{
+  width: 100%;
+}
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
@@ -48,8 +51,10 @@ a{
   margin-right: auto ;
 }
 
-#this-carousel-id{
-  background-color: black;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+width: 100%;
+display: block;
+line-height: 1;
 }
 
 .carousel,.item,.active{height:100%;}
