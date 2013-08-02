@@ -1,8 +1,8 @@
 <%= render "subnav" %>
-<div class="container">
-  <!--  Carousel - consult the Twitter Bootstrap docs at
-  http://twitter.github.com/bootstrap/javascript.html#carousel -->
-  <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+<!--  Carousel - consult the Twitter Bootstrap docs at
+http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="container">
     <div class="carousel-inner">
       <div class="item active"><!-- class of active since it's the first item -->
         <%= image_tag "middle_graphic_one_about.jpg"%>
@@ -20,29 +20,64 @@
 <div id="sub_nav_botton_bar">
 <div id="sub_nav"></div>
 </div>
+
+<div id="main_body">
+<div class="pull-left">
 <main>
 <div id="featured">
-  <h3>innovations.</h3>
-  <p>Creative stays at the forefront of the latest trends, 
-  popular culture and manufacturing capabilities —
-  so our clients get one-of-a-kind promotions that
-  make people say “Wow!”.</p>
+  <div id="one" class="pull-left">
+    <%= image_tag "tissue.jpg"%>
+  </div> 
+  <div id="two" class="pull-right">
+    <h3>innovations.</h3>
+    <p>Creative stays at the forefront of the latest trends, 
+    popular culture and manufacturing capabilities —
+    so our clients get one-of-a-kind promotions that
+    make people say “Wow!”.</p>
+    <%= image_tag "learn.png"%>
+  </div>
 </div>
 
 <div id="featured">
-  <h3>services.</h3>
+  <div id="one" class="pull-right">
+    <%= image_tag "spheres.jpg"%>
+  </div> 
+  <div id="two" class="pull-left">
+    <h3>services.</h3>
   <p>At Creative we wear a variety of hats, from
   custom-made promotional products, to finishing
   techniques, fulfillment and more, there’s nothing
   we can’t handle.</p>
+    <%= image_tag "learn.png"%>
+  </div>
 </div>
 
 <div id="featured">
-  <h3>design.</h3>
-  <p>Creative stays at the forefront of the latest trends, 
-  popular culture and manufacturing capabilities —
-  so our clients get one-of-a-kind promotions that
-  make people say “Wow!”.</p>
+  <div id="one" class="pull-left">
+    <%= image_tag "design.jpg"%>
+  </div> 
+  <div id="two" class="pull-right">
+    <h3>design.</h3>
+    <p>Creative stays at the forefront of the latest trends, 
+    popular culture and manufacturing capabilities —
+    so our clients get one-of-a-kind promotions that
+    make people say “Wow!”.</p>
+    <%= image_tag "learn.png"%>
+  </div>
 </div>
 </main>
+</div>
 
+<div class="pull-right">
+  <aside>
+    <div id="sidebar">
+      <h3>news.</h3>
+      <h3>happenings.</h3>
+      <h3>events.</h3>
+      <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
+      <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
+      <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
+    </div>
+</aside>
+</div>
+</div>

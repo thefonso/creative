@@ -19,6 +19,7 @@
   src: url("/assets/n0190031.ttf'") format("truetype"); /* For IE */
   src: local("nimbus"), url("/assets/n0190031.ttf") format("truetype"); /* For non-IE */
 }
+ html,body{height:100%;}
 
 a{
   text-decoration:none;
@@ -31,9 +32,9 @@ a{
   margin-right:auto;
 }
 .nav {
-margin-left: 0;
-margin-bottom: 0px;
-list-style: none;
+  margin-left: 0;
+  margin-bottom: 0px;
+  list-style: none;
 }
 .header{
   padding-top:20px;
@@ -45,14 +46,24 @@ list-style: none;
   width: 100%;
   margin-left: auto ;
   margin-right: auto ;
+}
 
+#this-carousel-id{
+  background-color: black;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{
+  width: 100%;
+  height:100%;
 }
 .carousel {
-position: relative;
-margin-bottom: 0px;
-line-height: 1;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-bottom: 0px;
+  line-height: 1;
 }
-
 
 #main_nav li{
   text-transform:uppercase;
@@ -100,6 +111,8 @@ line-height: 1;
   border-radius: 0;
 
 }
+
+
 #sub_nav{
   background-color: black;
   display: block;
@@ -135,4 +148,37 @@ line-height: 1;
 }
 #sub_nav.nav-tabs, .nav-pills {
   padding-left: 174px;
+}
+
+#featured{
+  width:750px;
+}
+
+#featured #one{
+  width:50%;
+}
+#featured #two{
+  width:50%;
+}
+
+#sidebar{
+  margin: 0 auto;
+  background:image_url('sidebar.png');
+  width:152px;
+  height:456px;
+  padding-top:20px;
+  padding-left:40px;
+  padding-right:20px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+#main_body{
+  margin: 0 auto;
+  background:image_url('background_aboutus.jpg');
+  background-repeat: repeat-x;
+  background-color: #ffffff;
+  height:805px;
+  padding-left:170px;
 }
