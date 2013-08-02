@@ -1,4 +1,6 @@
 Creative::Application.routes.draw do
+  root :to => 'aboutus#overview'
+
   get "contact/index"
 
   get "customer_lounge/overview"

@@ -1,2 +1,48 @@
-<h1>Aboutus#overview</h1>
-<p>Find me in app/views/aboutus/overview.html.erb</p>
+<%= render "subnav" %>
+<div class="container">
+  <!--  Carousel - consult the Twitter Bootstrap docs at
+  http://twitter.github.com/bootstrap/javascript.html#carousel -->
+  <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+        <%= image_tag "middle_graphic_one_about.jpg"%>
+      </div>
+      <div class="item">
+        <%= image_tag "middle_graphic_two_about.jpg"%> 
+      </div>
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls below
+    href values must reference the id for this carousel -->
+    <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+  </div><!-- /.carousel -->
+</div>
+<div id="sub_nav_botton_bar">
+<div id="sub_nav"></div>
+</div>
+<main>
+<div id="featured">
+  <h3>innovations.</h3>
+  <p>Creative stays at the forefront of the latest trends, 
+  popular culture and manufacturing capabilities —
+  so our clients get one-of-a-kind promotions that
+  make people say “Wow!”.</p>
+</div>
+
+<div id="featured">
+  <h3>services.</h3>
+  <p>At Creative we wear a variety of hats, from
+  custom-made promotional products, to finishing
+  techniques, fulfillment and more, there’s nothing
+  we can’t handle.</p>
+</div>
+
+<div id="featured">
+  <h3>design.</h3>
+  <p>Creative stays at the forefront of the latest trends, 
+  popular culture and manufacturing capabilities —
+  so our clients get one-of-a-kind promotions that
+  make people say “Wow!”.</p>
+</div>
+</main>
+
