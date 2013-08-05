@@ -1,2 +1,110 @@
-<h1>IdeaCenter#staff_picks</h1>
-<p>Find me in app/views/idea_center/staff_picks.html.erb</p>
+<%= render "subnav" %>
+<div id="main_body">
+
+<!--  Carousel - consult the Twitter Bootstrap docs at
+http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="container">
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+        <%= image_tag "ideacenter_mainscreen.jpg"%>
+      </div>
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls below
+    href values must reference the id for this carousel -->
+  </div><!-- /.carousel -->
+</div>
+<div id="sub_nav_botton_bar">
+  <div id="sub_nav"></div>
+</div>
+
+</div> <!-- main_body ends -->
+
+
+<div class="clearfix"></div>
+
+
+<div id="content_holder">
+  <div id="toprow">
+    <div id="social" class="pull-left">
+      <ul>
+        <li><a href="http://facebook.com" target="new">
+          <%= image_tag("social_fb.png") %></a>
+        </li>
+        <li><a href="http://www.twitter.com/" target="new">
+          <%= image_tag("social_tw.png") %></a>
+        </li>
+        <li><a href="https://www.linkedin.com/" target="new">
+          <%= image_tag("social_ln.png") %></a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div id="lighbulb" class="pull-right">
+      <%= image_tag "lightbulb.png", :class=>"bulb"%>
+    </div>
+  </div><!-- toprow ends -->
+
+  <div class="clearfix"></div>
+
+  <main id="main">
+  <div id="content" class="pull-left">
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "tissue.jpg"%>
+      </div>
+      <div id="two" class="pull-right">
+        <h3>innovations.</h3>
+        <p>Creative stays at the forefront of the latest trends,
+        popular culture and manufacturing capabilities —
+        so our clients get one-of-a-kind promotions that
+        make people say “Wow!”.</p>
+        <%= image_tag "learn.png"%>
+      </div>
+    </div>
+
+    <div id="featured">
+      <div id="one" class="pull-right">
+        <%= image_tag "spheres.jpg"%>
+      </div>
+      <div id="two" class="pull-left">
+        <h3>services.</h3>
+        <p>At Creative we wear a variety of hats, from
+        custom-made promotional products, to finishing
+        techniques, fulfillment and more, there’s nothing
+        we can’t handle.</p>
+        <%= image_tag "learn.png"%>
+      </div>
+    </div>
+
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "design.jpg"%>
+      </div>
+      <div id="two" class="pull-right">
+        <h3>design.</h3>
+        <p>Creative stays at the forefront of the latest trends,
+        popular culture and manufacturing capabilities —
+        so our clients get one-of-a-kind promotions that
+        make people say “Wow!”.</p>
+        <%= image_tag "learn.png"%>
+      </div>
+    </div>
+  </div> <!-- content ends -->
+
+  <aside>
+    <div id="sidebar" class="pull-right">
+      <h3>news.</h3>
+      <h3>happenings.</h3>
+      <h3>events.</h3>
+      <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
+      <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
+      <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
+    </div>
+  </aside>
+
+  </main> <!-- main ends -->
+</div>
+</div>
+
