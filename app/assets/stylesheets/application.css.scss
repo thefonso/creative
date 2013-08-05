@@ -121,7 +121,7 @@ line-height: 1;
 #sub_nav{
   background-color: black;
   display: block;
-  width: 960px;
+  width: 100%;
   margin-left: auto ;
   margin-right: auto ;
   color: white;
@@ -137,6 +137,7 @@ line-height: 1;
 
 #sub_nav_top_bar{
   background-color: black;
+  height: 3em;
 }
 #sub_nav_botton_bar{
   background-color: black;
@@ -218,6 +219,11 @@ line-height: 1;
 }
 
 #timeline{
+  width:922px;
+  height:205px;
+  margin-top:7em;
+  background:image_url('timeline_background.png');
+  background-repeat: no-repeat;
   z-index:1;
   position:relative;
   padding-top:7em;
