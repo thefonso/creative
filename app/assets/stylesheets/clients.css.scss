@@ -20,9 +20,16 @@
 
 #clients_sidebar{
   margin-top:25em;
+  /* margin: 0 auto; */
+  background:image_url('sidebar.png');
+  width:152px;
+  height:456px;
+  padding-top:20px;
+  padding-left:40px;
+  padding-right:20px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  overflow: hidden;
 }
 
-#sub_nav_top_bar{
-  background-color: black;
-  height: 4em;
-}
+
