@@ -5,6 +5,7 @@
   margin-top:70px;
   padding-left:70px;
 }
+
 #staff_titles h3{
   text-transform:uppercase;
   font-weight: bold;
@@ -15,13 +16,18 @@
 #staff_picks_content{
   width:970px;
 }
-
+#staff_picks_content #title_bar{
+ margin-left: 4em;
+ margin-bottom:2em;
+ margin-top:1em;
+}
 #staff_picks_content #one{
   /* width:40%; */
 }
 
 #staff_picks_content #two{
   width:50%;
+  margin-right: 3em;
 }
 
 #staff_picks_content #two h3{
@@ -48,12 +54,16 @@
 #staff_picks_content #image2{
   padding-left:1.2em;
 }
+
+ul#staff_nav{
+  margin-left:8.8em;
+}
 ul#staff_nav li>a{
   padding: 10px;
   display: block;
   margin-top:15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 1.7em;
   font-family: helvetica, arial;
   font-size: 12px;
   text-transform:uppercase;
