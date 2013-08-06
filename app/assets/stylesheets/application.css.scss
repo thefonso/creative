@@ -79,6 +79,11 @@ table {
   src: url("/assets/n019062d.ttf'") format("truetype"); /* For IE */
   src: local("nimbus_italic"), url("/assets/n019062d.ttf") format("truetype"); /* For non-IE */
 }
+@font-face {
+  font-family: nimbus_conbla;
+  src: url("/assets/n019046t.ttf'") format("truetype"); /* For IE */
+  src: local("nimbus_italic"), url("/assets/n019046t.ttf") format("truetype"); /* For non-IE */
+}
 
  html,body{height:100%;}
 
@@ -133,7 +138,7 @@ line-height: 1;
 
 #main_nav li{
   text-transform:uppercase;
-}
+  }
 
 #main_nav{
   padding-top: 30px;
@@ -141,8 +146,8 @@ line-height: 1;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: helvetica, arial;
-  font-size: 12px;
+  font-family:'nimbus_conbla';
+  font-size: 1.1em;
   /* border: 1px solid black; */
 }
 #main_nav li > a:hover{
@@ -168,8 +173,8 @@ line-height: 1;
   padding-top:4px;
   padding-right:14px;
   margin-bottom: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-family:'nimbus';
+  font-size: 1.2em;
   font-weight: normal;
   line-height: 1;
   -webkit-border-radius: 0px;
@@ -186,8 +191,8 @@ line-height: 1;
   margin-left: auto ;
   margin-right: auto ;
   color: white;
-  font-family: helvetica, arial;
-  font-size: 12px;
+  font-family:'nimbus_conbla';
+  font-size: 1.1em;
 
 }
 #sub_nav .nav > li > a{
@@ -207,8 +212,8 @@ line-height: 1;
   height: 20px;
   margin-left: auto ;
   margin-right: auto ;
-  font-family: helvetica, arial;
-  font-size: 12px;
+  font-family:'nimbus_conbla';
+  font-size: 1.1em;
 }
 #sub_nav ul>li{
   text-transform:uppercase;
