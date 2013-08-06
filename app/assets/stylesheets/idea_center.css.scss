@@ -35,12 +35,35 @@
   color:#000;
   font-family:'nimbus_italic';
 	font-size: 1.5em;
+  padding-left:1em;
 
 }
 #staff_picks_content #two ul{
   display: table;
 	list-style-type: none;
 }
-#staff_picks_content #two ul li{
-  display: inline; 
+#staff_picks_content #two ul>li{
+  display: inline-block; 
+}
+#staff_picks_content #image2{
+  padding-left:1.2em;
+}
+ul#staff_nav li>a{
+  padding: 10px;
+  display: block;
+  margin-top:15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: helvetica, arial;
+  font-size: 12px;
+  text-transform:uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  color: #999999;
+}
+ul#staff_nav li>a:hover{
+  background-color: #ffd200;
+  border-radius: 0;
 }
