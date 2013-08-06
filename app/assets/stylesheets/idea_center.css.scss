@@ -13,7 +13,7 @@
 }
 
 #staff_picks_content{
-  width:800px;
+  width:970px;
 }
 
 #staff_picks_content #one{
@@ -21,7 +21,7 @@
 }
 
 #staff_picks_content #two{
-  width:40%;
+  width:50%;
 }
 
 #staff_picks_content #two h3{
@@ -32,5 +32,15 @@
 	font-size: 1.8em;
 }
 #staff_picks_content #two h5{
-  
+  color:#000;
+  font-family:'nimbus_italic';
+	font-size: 1.5em;
+
+}
+#staff_picks_content #two ul{
+  display: table;
+	list-style-type: none;
+}
+#staff_picks_content #two ul li{
+  display: inline; 
 }
