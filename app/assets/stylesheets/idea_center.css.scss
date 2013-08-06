@@ -5,6 +5,10 @@
   margin-top:70px;
   padding-left:70px;
 }
+#carousel-portfolio{
+  width:863px;
+  margin-left: 57px;
+}
 
 #staff_titles h3{
   text-transform:uppercase;
@@ -16,11 +20,22 @@
 #staff_picks_content{
   width:970px;
 }
-#staff_picks_content #title_bar{
+
+#staff_picks_content #title_bar.staff{
  margin-left: 4em;
  margin-bottom:2em;
  margin-top:1em;
 }
+#staff_picks_content #title_bar.portfolio{
+ margin-left: 4em;
+ margin-top:1em;
+}
+#staff_picks_content #title_bar.case_studies{
+ margin-left: 4em;
+ margin-top:1em;
+}
+
+
 #staff_picks_content #one{
   /* width:40%; */
 }

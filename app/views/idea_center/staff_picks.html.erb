@@ -51,7 +51,7 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <main id="staff_main">
   <div id="content" class="pull-left">
     <div id="staff_picks_content">
-      <div id="title_bar">
+      <div id="title_bar" class="staff">
         <div id="staff_titles" class="pull-left">
           <h3>staff picks</h3>
         </div>
@@ -81,7 +81,7 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
     </div><!-- staff_picks_content ends -->
 
     <div id="staff_picks_content">
-      <div id="title_bar">
+      <div id="title_bar" class="portfolio">
         <div id="staff_titles" class="pull-left">
           <h3>portfolio</h3>
         </div>
@@ -93,12 +93,31 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
           <p>Maecenas at justo quis sem rhoncus imperdiet. Phasellus tincidunt volutpat venenatis. Phasellus aliquam est at justo bibendum ac tempor tellus iaculis. Donec ac est ac ligula ullamcorper.</p>
         </ul>
       </div>
+      <!--  Carousel - consult the Twitter Bootstrap docs at
+http://twitter.github.com/bootstrap/javascript.html#carousel -->
+      <div id="carousel-portfolio" class="carousel slide"><!-- class of slide for animation -->
+        <div class="container">
+          <div class="carousel-inner">
+            <div class="item active"><!-- class of active since it's the first item -->
+              <%= image_tag "middle_graphic_one_about.jpg"%>
+            </div>
+            <div class="item">
+              <%= image_tag "middle_graphic_two_about.jpg"%>
+            </div>
+          </div><!-- /.carousel-inner -->
+          <!--  Next and Previous controls below
+          href values must reference the id for this carousel -->
+          <a class="carousel-control left"  href="#carousel-portfolio" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#carousel-portfolio" data-slide="next">&rsaquo;</a>
+        </div><!-- /.carousel -->
+      </div>
+
     </div><!-- staff_picks_content ends -->
 
     <div class="clearfix"></div>
 
     <div id="staff_picks_content">
-      <div id="title_bar">
+      <div id="title_bar" class="case_studies">
         <div id="staff_titles" class="pull-left">
           <h3>case studies</h3>
         </div>
