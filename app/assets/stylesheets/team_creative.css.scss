@@ -1,3 +1,52 @@
 // Place all the styles related to the team_creative controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#staff_picks_content #title_bar.our_sales_associates{
+ margin-bottom:2em;
+ margin-top:1em;
+}
+
+#staff_picks_content #two.assoc h3 {
+color: #000;
+text-transform: uppercase;
+font-weight: bold;
+font-family: 'nimbus';
+font-size: 1.8em;
+}
+
+.staff_pick_text.assoc{
+  width:32em;
+}
+
+#assoc_contact_info .middle{
+  vertical-align: middle;
+  margin-top: .5em;
+  margin-left: 5em;
+  margin-right: auto;
+}
+
+#assoc_contact_info .middle p{
+ margin-left: .5em;
+}
+
+
+.yellow_button{
+  margin-left: 1.5em;
+  background:image_url('yellow_button.png');
+  padding-top: 0.7em;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 114px;
+  height: 42px;
+}
+
+.yellow_button p{
+  height:100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#icon_twitter{
+  margin-right: .25em;
+}
