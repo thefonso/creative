@@ -187,7 +187,7 @@ line-height: 1;
 #sub_nav{
   background-color: black;
   display: block;
-  width: 960px;
+  width: 60em;
   margin-left: auto ;
   margin-right: auto ;
   color: white;
@@ -209,7 +209,7 @@ line-height: 1;
   background-color: black;
   background-color: black;
   display: block;
-  height: 20px;
+  height: 1.25em;
   margin-left: auto ;
   margin-right: auto ;
   font-family:'nimbus_conbla';
@@ -219,7 +219,7 @@ line-height: 1;
   text-transform:uppercase;
 }
 #sub_nav.nav-tabs, .nav-pills {
-  padding-left: 174px;
+  padding-left: 10.9em;
 }
 
 #featured{
@@ -236,12 +236,12 @@ line-height: 1;
 #sidebar{
   margin: 0 auto;
   background:image_url('sidebar.png');
-  width:152px;
-  height:456px;
-  margin-top:170px;
-  padding-top:20px;
-  padding-left:40px;
-  padding-right:20px;
+  width:9.5em;
+  height:28.5em;
+  margin-top:10.6em;
+  padding-top:1.25em;
+  padding-left:2.5em;
+  padding-right:1.25em;
   background-repeat: no-repeat;
   background-color: #ffffff;
   overflow: hidden;
@@ -255,7 +255,6 @@ line-height: 1;
   background:image_url('background_aboutus.jpg');
   background-repeat: repeat-x;
   background-color: #ffffff;
-  /* height:805px; */
 }
 
 #content_holder{
@@ -264,13 +263,13 @@ line-height: 1;
   margin-top: 21em;
   margin-left: auto;
   margin-right: auto;
-  height:805px;
+  height:50.3em;
 }
 
 #social{
   z-index:1;
   position:relative;
-  width:150px;
+  width:9.3em;
 }
 
 #social ul{
@@ -285,8 +284,8 @@ line-height: 1;
 }
 
 #timeline{
-  width:922px;
-  height:205px;
+  width:65.6em;
+  height:12.8em;
   margin-top:8em;
   background:image_url('timeline_background.png');
   background-repeat: no-repeat;
@@ -302,6 +301,6 @@ line-height: 1;
 }
 
 #main{
-  padding-left:170px;
+  padding-left:10.6em;
 }
 
