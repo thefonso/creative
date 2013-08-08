@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #main.associates{
-padding-left:11em;
+  padding-left:11em;
 }
 #staff_picks_content #title_bar.our_sales_associates{
   margin-bottom:2em;
@@ -57,4 +57,44 @@ padding-left:11em;
 
 #icon_twitter{
   margin-right: .25em;
+}
+
+#timeline .leaders{
+  background:image_url('team_creative/leader_board_bkgrd.jpg');
+  background-repeat: no-repeat;
+  width:214px;
+  margin-left: 0.5em;
+}
+
+.leaders img{
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#timeline.team_creative{
+  width:65.6em;
+  height:auto;
+  padding-top:2.5em;
+  padding-left:1.6em;
+  padding-right:1.5em;
+  margin-left: 2em;
+  margin-top:8em;
+  background:image_url('timeline_background.png');
+  background-repeat: no-repeat;
+  z-index:1;
+  position:relative;
+}
+
+#timeline.team_creative  a{
+} 
+
+#timeline.team_creative a:hover{
+  background:image_url('team_creative/leader_board_bkgrd2.jpg');
+  background-repeat: no-repeat;
+}
+
+#staff_picks_content.sales_assoc{
+
 }
