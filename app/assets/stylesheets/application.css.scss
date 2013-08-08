@@ -219,7 +219,7 @@ line-height: 1;
   text-transform:uppercase;
 }
 #sub_nav.nav-tabs, .nav-pills {
-  padding-left: 10.9em;
+  padding-left: 10.2em;
 }
 
 #featured{
@@ -238,13 +238,15 @@ line-height: 1;
   background:image_url('sidebar.png');
   width:9.5em;
   height:28.5em;
-  margin-top:10.6em;
   padding-top:1.25em;
   padding-left:2.5em;
   padding-right:1.25em;
   background-repeat: no-repeat;
   background-color: #ffffff;
   overflow: hidden;
+}
+#sidebar.aboutus{
+  margin-top:10.6em;
 }
 
 #main_body{
@@ -255,6 +257,10 @@ line-height: 1;
   background:image_url('background_aboutus.jpg');
   background-repeat: repeat-x;
   background-color: #ffffff;
+}
+
+#content.aboutus{
+ margin-top:6em;
 }
 
 #content_holder{
@@ -293,7 +299,7 @@ line-height: 1;
   position:relative;
 }
 
-#lighbulb{
+#lightbulb{
    z-index:4;
    position:absolute;
    margin-left:85%;

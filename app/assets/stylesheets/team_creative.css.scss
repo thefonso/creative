@@ -63,15 +63,26 @@
   background:image_url('team_creative/leader_board_bkgrd.jpg');
   background-repeat: no-repeat;
   width:214px;
-  margin-left: 0.5em;
+  margin-right:.5em;
+
 }
 
 .leaders img{
   display: block;
   margin-top: 1em;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
+
+.leaders p{
+  margin-left:1em;
+  margin-right:.5em;
+}
+.leaders h5{
+  margin-left:1em;
+  margin-right:.5em;
+}
+
 
 #timeline.team_creative{
   width:65.6em;
@@ -97,4 +108,7 @@
 
 #staff_picks_content.sales_assoc{
 
+}
+#sidebar.teamcreative{
+  margin-top:0em;
 }
