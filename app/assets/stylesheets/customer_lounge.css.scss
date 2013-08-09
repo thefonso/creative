@@ -1,3 +1,38 @@
 // Place all the styles related to the customer_lounge controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#lounge_content{
+  margin-top: 2em;
+}
+#title_text{
+  text-transform:uppercase;
+}
+
+#lounge_content #one{
+ margin-top:4em;
+}
+
+.text_window{
+ margin-bottom:1em;
+}
+
+.text_window.halfway{
+  width: 32em;
+}
+
+.text_window.fullway{
+  width: 52em;
+}
+
+.first_color{
+  color:black;
+}
+
+.second_color{
+  color:#527d88;
+}
+
+#sidebar.customer_lounge{
+  margin-top:21em;
+}
+
