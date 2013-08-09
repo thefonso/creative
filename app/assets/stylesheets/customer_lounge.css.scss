@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #mainscreen.music{
- background:url('customer_lounge/music_mainscreen.jpg') no-repeat center;
+ background:url('customer_lounge/sportsbar_mainscreen.jpg') no-repeat center;
  min-width:1219px;
  min-height:413px;
  margin: 0 auto;
@@ -45,7 +45,7 @@
 }
 
 .text_window.fullway{
-  width: 52em;
+  width: 72em;
 }
 
 .first_color{
@@ -64,3 +64,25 @@
   margin-top:21em;
 }
 
+#bar_nav{
+  //  margin-left:8.8em;
+}
+#bar_nav ul>li>a{
+  padding: 10px;
+  display: block;
+  margin-top:15px;
+  margin-left: auto;
+  margin-right: 1.7em;
+  font-family:'nimbus_conbla';
+  font-size: 1.1em;
+  text-transform:uppercase;
+
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  color: #999999;
+}
+#bar_nav ul>li>a:hover{
+  background-color: #ffd200;
+  border-radius: 0;
+}
