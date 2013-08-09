@@ -233,8 +233,13 @@ line-height: 1;
   width:50%;
 }
 
+#content{
+ margin-top:5em;
+}
+
 #sidebar{
   margin: 0 auto;
+  margin-top: 24em;
   background:image_url('sidebar.png');
   width:9.5em;
   height:28.5em;
@@ -244,9 +249,6 @@ line-height: 1;
   background-repeat: no-repeat;
   background-color: #ffffff;
   overflow: hidden;
-}
-#sidebar.aboutus{
-  margin-top:10.6em;
 }
 
 #main_body{
@@ -259,10 +261,6 @@ line-height: 1;
   background-color: #ffffff;
 }
 
-#content.aboutus{
- margin-top:6em;
-
-}
 
 #content_holder{
   z-index:1;

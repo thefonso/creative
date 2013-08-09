@@ -40,6 +40,12 @@
  margin-bottom:1em;
 }
 
+.text_window p.dotted{
+  border-bottom-width: .15em;
+  border-bottom-style: dotted;
+}
+
+
 .text_window.halfway{
   width: 32em;
 }

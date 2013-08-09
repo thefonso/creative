@@ -1,10 +1,23 @@
 // Place all the styles related to the idea_center controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#social.staff_picks{
+ margin-top: 10em;
+}
+
+#lightbulb.staff_picks{
+  margin-top: 10em; 
+}
+
 #staff_main{
-  margin-top:70px;
+  margin-top:0px;
   padding-left:70px;
 }
+
+#content_holder.staff_picks{
+ margin-top: 12em;
+}
+
 #carousel-portfolio{
   width:920px;
   margin-left: 57px;
@@ -13,6 +26,7 @@
 #carousel-portfolio #small_images{
   padding-left:5em;
 }
+
 #carousel-portfolio #large_images{
   padding-right:5em;
 }
@@ -26,7 +40,7 @@
 }
 
 #staff_picks_content{
-  width:60.6em;
+  width:70.6em;
 }
 
 #staff_picks_content #title_bar.staff{
