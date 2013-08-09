@@ -1,6 +1,14 @@
 // Place all the styles related to the customer_lounge controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#mainscreen.music{
+ background:url('customer_lounge/music_mainscreen.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
 #lounge_content{
   margin-top: 2em;
 }
