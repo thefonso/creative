@@ -9,9 +9,25 @@
  background-size: 100%;
 }
 
+#wrapper{
+ width:65em;
+ margin-left:auto;
+ margin-right:auto;
+}
+#bigtext{
+ width:20em;
+}
+#bigtext h1{
+ text-transform:uppercase;
+}
+#bigtext h5{
+
+}
+
 #lounge_content{
   margin-top: 2em;
 }
+
 #title_text{
   text-transform:uppercase;
 }
@@ -38,6 +54,10 @@
 
 .second_color{
   color:#527d88;
+}
+
+.third_color{
+  color:white;
 }
 
 #sidebar.customer_lounge{
