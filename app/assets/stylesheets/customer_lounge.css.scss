@@ -25,33 +25,47 @@
 }
 
 #lounge_content{
-  margin-top: 2em;
+  margin-top: 0em;
 }
 
+#content.sports_bar{
+ margin-top: 0em;
+}
+
+
 #title_text{
-  text-transform:uppercase;
+ text-transform:uppercase;
+}
+
+#title_text.one{
+ padding-top:0.9em;
 }
 
 #lounge_content #one{
  margin-top:4em;
 }
 
+.bar_text{
+ width:58em;
+}
+
 .text_window{
  margin-bottom:1em;
 }
 
+
 .text_window p.dotted{
+  padding-bottom:1em;
   border-bottom-width: .15em;
   border-bottom-style: dotted;
 }
 
-
-.text_window.halfway{
-  width: 32em;
+#two.text_window{
+  margin-right:4em;
 }
 
-.text_window.fullway{
-  width: 72em;
+#image2{
+  padding-left: 1.2em;
 }
 
 .first_color{
@@ -70,19 +84,18 @@
   margin-top:21em;
 }
 
-#bar_nav{
-  //  margin-left:8.8em;
+#bar_nav ul{
+  padding-left:4em;
+  padding-bottom:1em;
 }
+
 #bar_nav ul>li>a{
-  padding: 10px;
   display: block;
   margin-top:15px;
   margin-left: auto;
-  margin-right: 1.7em;
   font-family:'nimbus_conbla';
   font-size: 1.1em;
   text-transform:uppercase;
-
   background-color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 0;
