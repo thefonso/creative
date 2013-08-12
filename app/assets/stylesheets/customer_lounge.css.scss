@@ -2,13 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #mainscreen.music{
- background:url('customer_lounge/sportsbar_mainscreen.jpg') no-repeat center;
+ background:url('customer_lounge/music_mainscreen.jpg') no-repeat center;
  min-width:1219px;
  min-height:413px;
  margin: 0 auto;
  background-size: 100%;
 }
 
+#mainscreen.stu_contact{
+ background:url('customer_lounge/stu_contact_mainscreen.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+#mainscreen.sportsbar{
+ background:url('customer_lounge/sportsbar_mainscreen.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
 #bar_pulls{
  margin-top:2.7em;
 }
@@ -47,6 +61,16 @@
 
 #lounge_content #one{
  margin-top:4em;
+}
+.stu_contact_stu_text{
+ width:48em;
+}
+
+#title_stu_subtext{
+ color: rgb(0, 0, 0);
+ font-family: 'nimbus_italic';
+ padding-left: 1em;
+ font-size: 1.5em;
 }
 
 .bar_text{
