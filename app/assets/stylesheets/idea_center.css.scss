@@ -110,7 +110,7 @@
 	list-style-type: none;
 }
 #staff_picks_content #two ul>li{
-   display: inline-block;
+  display: inline-block;
 }
 #staff_picks_content #two ul>p{
 
@@ -142,4 +142,7 @@ ul#staff_nav li>a{
 ul#staff_nav li>a:hover{
   background-color: #ffd200;
   border-radius: 0;
+}
+#sidebar.staff_picks{
+  margin-top: 30em;
 }
