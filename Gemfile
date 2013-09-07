@@ -9,6 +9,8 @@ gem 'rails', '3.2.13'
 gem 'pg'
 
 group :development, :test do
+  gem 'pry'
+  gem 'better_errors'
   gem 'rspec-rails'
 end
 
