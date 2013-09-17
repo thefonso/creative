@@ -1,4 +1,103 @@
 <%= render "subnav" %>
+<div id="main_body">
 
-<h1>Aboutus#innovations</h1>
-<p>Find me in app/views/aboutus/innovations.html.erb</p>
+<!--  Carousel - consult the Twitter Bootstrap docs at
+http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="container">
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+        <%= image_tag "aboutus/innovations.jpg"%>
+      </div>
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls below
+    href values must reference the id for this carousel -->
+    <!-- <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a> -->
+    <!-- <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a> -->
+  </div><!-- /.carousel -->
+</div>
+<div id="sub_nav_botton_bar">
+  <div id="sub_nav"></div>
+</div>
+
+</div> <!-- main_body ends -->
+
+
+<div class="clearfix"></div>
+
+
+<div id="content_holder">
+  <div id="toprow">
+    <div id="social" class="pull-left">
+      <ul>
+        <li><a href="http://facebook.com" target="new">
+          <%= image_tag("social_fb.png") %></a>
+        </li>
+        <li><a href="http://www.twitter.com/" target="new">
+          <%= image_tag("social_tw.png") %></a>
+        </li>
+        <li><a href="https://www.linkedin.com/" target="new">
+          <%= image_tag("social_ln.png") %></a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="timeline" class="pull-left">
+    </div>
+
+    <div id="lightbulb" class="pull-right">
+      <%= image_tag "lightbulb.png", :class=>"bulb"%>
+    </div>
+  </div><!-- toprow ends -->
+
+  <div class="clearfix"></div>
+
+  <main id="main">
+  <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "aboutus/hand_n_light.jpg"%>
+      </div>
+      <div id="two" class="pull-right">
+        <h3>innovations.</h3>
+        <p>When you work with Creative, you get custom solutions
+        designed specifically for you. We begin by listening. We
+        learn about you, your business and your objectives. As a
+        team, we’ll help you design a program that will get you 
+        noticed. From sales incentive programs to on-pack
+        promotions, trade show giveaways to corporate gifts, we’ll
+        come up with ideas that are original, meaningful — and
+        within your budget. Take a look at just a few of the 
+        solutions we’ve tailored to provide amazing impact.</p>
+      </div>
+    </div>
+   
+    <div class="clearfix"></div>
+
+    <div id="featured">
+      <div id="one" class="pull-right">
+        <%= image_tag "aboutus/avion.jpg"%>
+      </div>
+      <div id="two" class="pull-left">
+        <h3>a 15% increase in ROI for avion couldn't
+          have tasted sweeter. bottoms up!</h3>
+        <p>The new tequila brand, Avion, came to us looking for a way to remind bartenders, many of whom were more familiar with more established brands of tequila, to use Avion.  While the brand enjoyed a lot of celebrity by being featured on the TV show Entourage, most consumers did not realize the brand was real. Avion needed a campaign that would urge bartenders to use Avion, therefore spreading its existence to the masses.</p>
+      </div>
+    </div>
+  </div><!-- content ends -->
+
+  <aside>
+    <div id="sidebar" class="aboutus pull-right">
+      <h3>news.</h3>
+      <h3>happenings.</h3>
+      <h3>events.</h3>
+      <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
+      <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
+      <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
+    </div>
+  </aside>
+
+  </main> <!-- main ends -->
+</div>
+</div>
+
