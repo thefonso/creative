@@ -6,18 +6,21 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
 <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="container">
     <div class="carousel-inner">
-      <div class="item active"><!-- class of active since it's the first item -->
-        <%= image_tag "aboutus/innovations.jpg"%>
-      </div>
+       <div id="mainscreen" class="innovations item active"><!-- class of active since it's the first item -->
+          <div id="wrapper">
+            <div id="bigtext" class="third_color pull-left">
+              <h1>YOU CAN LEARN A LOT ABOUT SOMEONE FROM THEIR LOCKER</h1>
+              <hr id="title_hr">
+              <h5>Here’s a chance for you to learn a little more about your Sales Representative at Creative.<br><br>Just make sure you have the combination.</h5>
+            </div>
+            <div id="tissueboxes" class="pull-right">
+              <%= image_tag("aboutus/tissueboxes.png") %>
+            </div>
+          </div>
+        </div>
+
     </div><!-- /.carousel-inner -->
-    <!--  Next and Previous controls below
-    href values must reference the id for this carousel -->
-    <!-- <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a> -->
-    <!-- <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a> -->
   </div><!-- /.carousel -->
-</div>
-<div id="sub_nav_botton_bar">
-  <div id="sub_nav"></div>
 </div>
 
 </div> <!-- main_body ends -->
