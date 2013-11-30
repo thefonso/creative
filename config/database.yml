@@ -8,8 +8,8 @@ development:
     encoding: utf8
     database: creative_development
     pool: 5
-    username: aleph
-    password: 
+    username: dar
+    password:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,8 +19,8 @@ test: &TEST
     encoding: utf8
     database: creative_test
     pool: 5
-    username: aleph
-    password: 
+    username: dar
+    password:
 
 production:
     adapter: postgresql

@@ -15,5 +15,38 @@
  background-size: 100%;
 }
 #tissueboxes{
- z-index:0; 
+ z-index:0;
 }
+#timeline-arrow{
+  position: absolute;
+  left: 25px;
+  top: 40px;
+}
+#carousel-inner1{
+  position: absolute;
+  left: 50px;
+  width: 225px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
+  #carousel-inner2{
+  position: absolute;
+  left: 290px;
+  width: 175px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
+  #carousel-inner3{
+  position: absolute;
+  left: 500px;
+  width: 125px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
+  #carousel-inner4{
+  position: absolute;
+  left: 650px;
+  width: 180px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
