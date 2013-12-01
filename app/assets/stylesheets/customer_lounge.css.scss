@@ -207,8 +207,8 @@ width: 62em;
 
 .lounge_sports{
   position: absolute;
-  top: 90px;
-  left: 100px;
+  top: 185px;
+  left: 130px;
   width: 245px;
   font-family: 'nimbussancon';
   font-size: 1em;
@@ -220,4 +220,39 @@ width: 62em;
   text-transform: uppercase;
 }
 
+.lounge_lockers{
+  position: absolute;
+  top: 450px;
+  left: 130px;
+  width: 245px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
 
+.lounge_stu{
+  position: absolute;
+  top: 450px;
+  left: 700px;
+  width: 200px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
+
+.lounge_movies{
+  position: absolute;
+  top: 185px;
+  left: 845px;
+  width: 195px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  }
+
+.lounge_music{
+  position: absolute;
+  top: -80px;
+  left: 845px;
+  width: 240px;
+  font-family: 'nimbussancon';
+  font-size: 1em;
+  color:white;
+  }
