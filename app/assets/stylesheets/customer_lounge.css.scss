@@ -13,6 +13,14 @@
  background-size: 100%;
 }
 
+#mainscreen.customer_lounge{
+ background:url('customer_lounge/overview_mainscreen.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
 #mainscreen.stu_contact{
  background:url('customer_lounge/stu_contact_mainscreen.jpg') no-repeat center;
  min-width:1219px;
@@ -84,6 +92,7 @@ margin-bottom: 0;
 
 #bigtext h1{
  text-transform:uppercase;
+ font-family: 'nimbus';
 }
 
 #bigtext h5{

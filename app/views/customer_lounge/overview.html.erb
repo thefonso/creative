@@ -1,19 +1,21 @@
 <%= render "subnav" %>
 <div id="main_body">
 
-
   <!--  Carousel - consult the Twitter Bootstrap docs at
   http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
     <div class="container">
       <div class="carousel-inner">
-        <div class="item active"><!-- class of active since it's the first item -->
-          <%= image_tag "customer_lounge/overview_mainscreen.jpg"%>
+        <div id="mainscreen" class="customer_lounge item active"><!-- class of active since it's the first item -->
+          <div id="wrapper">
+            <div id="bigtext_innovations" class="third_color pull-left">
+              <p>ALL WORK AND NO PLAY? <br> LEAVE THAT TO US.</p>
+              <p> At Creative we work hard to earn your business, <br> but that doesn’t mean you need to. Sit back and <br> enjoy a game of darts, listen to some tunes, or <br>simply be enlightened. <br> <br> Relax. You’re amongst family.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div><p>ALL WORK AND NO PLAY? <br> LEAVE THAT TO US.</p>
-        <p> At Creative we work hard to earn your business, <br> but that doesn’t mean you need to. Sit back and <br> enjoy a game of darts, listen to some tunes, or <br>simply be enlightened. <br> <br> Relax. You’re amongst family.</p></div>
+
       <div style='top:-140px; position: absolute;'> <%= image_tag "lounge_bulb.png", align:"center", alt:"lounge_bulb" %>
 
       </div>

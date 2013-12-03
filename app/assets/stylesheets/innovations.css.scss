@@ -1,0 +1,28 @@
+#innovations_timeline{
+  width:45.6em;
+  height:6.8em;
+  margin-top:8em;
+  background-repeat: no-repeat;
+  z-index:1;
+  position:relative;
+}
+
+// #featured {
+// width: 800px;
+// }
+#mainscreen.innovations{
+ background:url('aboutus/innovations.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
+#bigtext_innovations{
+ width:24em;
+ font-family: 'nimbus';
+}
+
+#bigtext_innovations h1,h3{
+ text-transform:uppercase;
+}
