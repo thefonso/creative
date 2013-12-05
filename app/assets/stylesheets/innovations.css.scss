@@ -1,9 +1,7 @@
 #innovations_timeline{
   width:45.6em;
-  height:6.8em;
   margin-top:8em;
   background-repeat: no-repeat;
-  z-index:1;
   position:relative;
 }
 
@@ -19,10 +17,23 @@
 }
 
 #bigtext_innovations{
- width:24em;
+ width:26em;
  font-family: 'nimbus';
 }
 
 #bigtext_innovations h1,h3{
  text-transform:uppercase;
+}
+#tissueboxes_size{
+  left: 500px;
+  margin-top:1em;
+  background-repeat: no-repeat;
+  z-index:1;
+  position:absolute;
+}
+#black_bar{
+  background-color: black;
+  height:1.5em;
+  min-width: 1219px;
+  top: 700px;
 }
