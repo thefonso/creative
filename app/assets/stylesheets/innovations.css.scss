@@ -1,0 +1,39 @@
+#innovations_timeline{
+  width:45.6em;
+  margin-top:8em;
+  background-repeat: no-repeat;
+  position:relative;
+}
+
+// #featured {
+// width: 800px;
+// }
+#mainscreen.innovations{
+ background:url('aboutus/innovations.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
+#bigtext_innovations{
+ width:26em;
+ font-family: 'nimbus';
+}
+
+#bigtext_innovations h1,h3{
+ text-transform:uppercase;
+}
+#tissueboxes_size{
+  left: 500px;
+  margin-top:1em;
+  background-repeat: no-repeat;
+  z-index:1;
+  position:absolute;
+}
+#black_bar{
+  background-color: black;
+  height:1.5em;
+  min-width: 1219px;
+  top: 700px;
+}
