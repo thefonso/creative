@@ -16,24 +16,40 @@
  background-size: 100%;
 }
 
-#bigtext_innovations{
- width:26em;
- font-family: 'nimbus';
+#bigtext_title{
+ padding-top: 50px;
+ width:20em;
 }
 
-#bigtext_innovations h1,h3{
- text-transform:uppercase;
+#bigtext_innovations{
+ width:20em;
 }
+
+#bigtext_innovations h3{
+ text-transform: uppercase;
+ font-size: 17px;
+ line-height: 19px;
+}
+
+#bigtext_title h1{
+ text-transform: uppercase;
+ font-size: 30px;
+}
+
 #tissueboxes_size{
-  left: 500px;
+  left: 450px;
   margin-top:1em;
   background-repeat: no-repeat;
   z-index:1;
-  position:absolute;
+  position: absolute;
 }
 #black_bar{
   background-color: black;
-  height:1.5em;
+  height: 1.5em;
   min-width: 1219px;
   top: 700px;
+}
+#space{
+  height: 50px;
+  width: 750px;
 }
