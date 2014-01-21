@@ -44,7 +44,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  color:#0d0d0d;
+  color:#000000;
   line-height: 1;
 }
 ul {
@@ -85,7 +85,7 @@ table {
   src: local("nimbus_italic"), url("/assets/n019046t.ttf") format("truetype"); /* For non-IE */
 }
 
- html,body{height:100%;}
+ html,body{height:100%; background-color: #000000;}
 
 a{
   text-decoration:none;
@@ -109,29 +109,30 @@ a{
   padding-bottom:20px;
 }
 .container{
-  width: 100%;
+  width: 1130px;
 }
 .container-fluid {
   padding-right: 0px;
   padding-left: 0px;
-  width: 100%;
+  width: 1130px;
   margin-left: auto ;
   margin-right: auto ;
+  background-color: #ffffff;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-width: 100%;
+width: 1130px;
 display: block;
 line-height: 1;
 }
 
 .carousel,.item,.active{height:100%;}
 .carousel-inner{
-  width: 100%;
+  width: 1130px;
   height:100%;
 }
 .carousel {
-  width: 100%;
+  width: 1130px;
   height: 100%;
   /* position: relative; */
   margin-bottom: 0px;
@@ -257,10 +258,12 @@ line-height: 1;
 
 #sidebar h3{
   text-transform: uppercase;
+  font-size: 14pt;
+  line-height: 18pt;
 }
 
 #main_body{
-  width:100%;
+  width:1130px;
   z-index:0;
   position:absolute;
   /* margin: 0 auto; */
@@ -299,7 +302,9 @@ line-height: 1;
 #timeline{
   width:65.6em;
   height:12.8em;
-  margin-top:8em;
+  margin-top:-2em;
+  margin-right: 8em;
+  margin-left: 5em;
   background:image_url('timeline_background.png');
   background-repeat: no-repeat;
   z-index:1;
