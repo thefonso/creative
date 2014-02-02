@@ -60,35 +60,45 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
     <div id="timeline-arrow">
     <%= image_tag "timeline-arrow.png", align:"center", alt:"arrow" %>
         <!-- <img src="images/timeline-arrow.png" align="center" atl="arrow"/> -->
-      <div id="carousel-inner1">
-          <%= image_tag "george_timeline.png", id:"george", align:"left", alt:"george" %>
-        <!--  <img src="images/george_timeline.png" align="left" alt="george" style="padding-right: 10px;"/> -->
-      <strong>1789</strong><br>First known promotional items are commerative buttons of the election of George Washington
-      </div>
-      <div id="carousel-inner2">
-      <%= image_tag "lightbulb_timeline.png", id:"teslabulb", align:"left", alt:"teslabulb" %>
-      <!--  <img src="images/lightbulb_timeline.png" align="left" alt="lightbulb" style="padding-right: 10px;"/> -->
-      <strong>1879</strong><br>Thomas Alva Edison invents the light bulb
-      </div>
-      <div id="carousel-inner3">
-       <%= image_tag "stu_timeline.png", id:"granick", align:"left", alt:"granick" %>
-      <!--  <img src="images/stu_timeline.png" align="left" alt="granick" style="padding-right: 10px; padding-bottom: 10px;"/> -->
-      <strong>1979</strong><br>Stewart Granick forms Creative Promotional Products
-      </div>
-      <div id="carousel-inner4">
-        <%= image_tag "shuttle_timeline.png", id:"shuttle", align:"left", alt:"shuttle" %>
 
-     <!--   <img src="images/shuttle_timeline.png" align="left" alt="shuttle" style="padding-right: 10px; padding-bottom: 10px;"/> -->
-       <strong>1979</strong><br>NASA begins Space Shuttle era with first launch
+     <div id="carousel-timeline" class="carousel slide"><!-- class of slide for animation -->
+    <div class="container">
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+     <div id="small_images" class="pull-left">
+     <div  class="pull-left"><%= image_tag "george_timeline.png"%></div>
+     <div  class="pull-left"><%= image_tag "lightbulb_timeline.png"%></div>
+     <div  class="pull-left"><%= image_tag "stu_timeline.png"%></div>
+     <div  class="pull-left"><%= image_tag "shuttle_timeline.png"%></div>
       </div>
+    </div>
+
+    <div class="item"><!-- class of active since it's the first item -->
+     <div id="small_images" class="pull-left">
+     <div class="pull-left"><%= image_tag "stu_timeline.png"%></div>
+     <div class="pull-left"><%= image_tag "george_timeline.png"%></div>
+     <div class="pull-left"><%= image_tag "lightbulb_timeline.png"%></div>
+     <div class="pull-left"><%= image_tag "shuttle_timeline.png"%></div>
+      </div>
+    </div>
+
+    <div class="item"><!-- class of active since it's the first item -->
+     <div id="small_images" class="pull-left">
+     <div class="pull-left"><%= image_tag "blue.png"%></div>
+     <div class="pull-left"><%= image_tag "yellow.png"%></div>
+     <div class="pull-left"><%= image_tag "green.png"%></div>
+     <div class="pull-left"><%= image_tag "red.png"%></div>
+      </div>
+    </div>
 
 
-<!--       <div id="carousel-inner5"> -->
-       <!--<%= image_tag "1845rubberband.jpg", id:"1845", align:"left", alt:"rubberband" %> -->
-       <!--<img src="images/stu_timeline.png" align="left" alt="granick" style="padding-right: 10px; padding-bottom: 10px;"/>
-      <strong>1845</strong><br>Stephen Perry patents the rubber band. -->
-      <!--</div> -->
 
+        </div><!-- /.carousel -->
+      </div>
+    </div>
+
+    <a class="carousel-control left"  href="#carousel-timeline" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carousel-timeline" data-slide="next">&rsaquo;</a>
 
   </div>
 </div>

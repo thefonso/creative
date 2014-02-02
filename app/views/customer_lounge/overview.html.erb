@@ -1,30 +1,16 @@
 <%= render "subnav" %>
 <div id="main_body">
+  <%= image_tag "lounge_landing_page.png", :usemap=>"#loungemap"%>
+    <map name="loungemap" >
+  <area shape="rect" coords="0,177,106,316" href="locker_room.htm" alt="grannick">
+  <area shape="rect" coords="180,160,285,334" href="locker_room.htm" alt="jersy">
+  <area shape="rect" coords="520,132,644,301" href="locker_room.htm" alt="locker">
+  <area shape="rect" coords="807,93,1025,178" href="locker_room.htm" alt="nowplaying">
+  <area shape="rect" coords="1039,108,1121,256" href="locker_room.htm" alt="juke">
+  <area shape="rect" coords="960,304,1121,640" href="locker_room.htm" alt="pool">
+    </map>
+</div>
 
-  <!--  Carousel - consult the Twitter Bootstrap docs at
-  http://twitter.github.com/bootstrap/javascript.html#carousel -->
-  <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
-    <div class="container">
-      <div class="carousel-inner">
-        <div id="mainscreen" class="customer_lounge item active"><!-- class of active since it's the first item -->
-          <div id="wrapper">
-            <div id="bigtext" class="third_color pull-left">
-              <div style="top: 30px; position: absolute; ">
-              <p><h1>ALL WORK AND NO PLAY? <br> LEAVE THAT TO US.</h1></p> <hr class="white_line">
-              <p> At Creative we work hard to earn your business, <br> but that doesn’t mean you need to. Sit back and <br> enjoy a game of darts, listen to some tunes, or <br>simply be enlightened. <br> <br> Relax. You’re amongst family.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div><!-- /.carousel-inner -->
-      <div id="lounge_bulb" style='z-index: 100; top:-140px; position: absolute;'> <%= image_tag "lounge_bulb.png", align:"center", alt:"lounge_bulb" %></div>
-      <!--  Next and Previous controls below
-      href values must reference the id for this carousel -->
-    </div><!-- /.carousel -->
-  </div>
-
-
-</div> <!-- main_body ends -->
 
 <div class="clearfix"></div>
 
@@ -50,7 +36,7 @@
       <%= image_tag "lightbulb.png", :class=>"bulb"%>
     </div> -->
 
-      <div style="left: 130px; top: 60px; position: absolute; width: 120px;">
+      <!-- <div style="left: 130px; top: 60px; position: absolute; width: 120px;">
             <%= image_tag "sports_bar.png" %>
           </div>
 
@@ -110,10 +96,8 @@
         </ul>
       </div>
 
-  </div><!--toprow ends -->
-  <div class="clearfix"></div>
+  </div><toprow ends -->
   <!-- main ends -->
-       <aside>
 <!--         <div id="sidebar" class="customer_lounge pull-right">
           <h3>news.</h3>
           <h3>happenings.</h3>
