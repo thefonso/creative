@@ -211,6 +211,7 @@
     </div>
 
     <div class="clearfix"></div>
+<<<<<<< HEAD
     <div>
       <!-- <div id="flip">Click</div> -->
       <div id="panel" class="paneltext"><p>Imagine a promotional company where creativity is the focus from start to finish, covering all of your marketing needs in a fresh new way. <br><br>
@@ -222,6 +223,9 @@
 </div>
     </div>
 
+=======
+    
+>>>>>>> 56195c13b5ac449d5bfda87600da323d7856c102
   </div>
     <div id="content" class="aboutus pull-left">
     <div id="featured">
@@ -232,10 +236,9 @@
         <a id="services"><h3>SERVICES.</h3></a>
         <p>At Creative we wear a variety of hats, from custom-made promotional products, to finishing
         techniques, fulfillment and more, there’s nothing we can’t handle.</p>
-         <a id="flip_two">
-           <%= image_tag "learn.png"%>
-           <div id="panel_two">testing box two</div>
-         </a>
+<<<<<<< HEAD
+        <a id="flip">
+           <%= image_tag "learn.png"%></a>
       </div>
     </div>
 
@@ -263,9 +266,21 @@
      </div>
   </div>
 
+
+
+=======
+         <a id="flip_two">
+           <%= image_tag "learn.png"%>
+           <div id="panel_two">testing box two</div>
+         </a>
+      </div>
+    </div>
+    </div>
+
     <div class="clearfix"></div>
 
     
+>>>>>>> 56195c13b5ac449d5bfda87600da323d7856c102
 
     <div id="content" class="aboutus pull-left">
     <div id="featured">
