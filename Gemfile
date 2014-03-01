@@ -25,8 +25,9 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
-
-gem 'jquery-rails', '3.1.0'
+# provides jquery 1.10.2
+# http://rubydoc.info/gems/jquery-rails/3.0.3/frames
+gem 'jquery-rails', '3.0.3'
 
 # Twitter Bootstrap
 gem 'bootstrap-sass'
