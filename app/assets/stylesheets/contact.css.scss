@@ -1,3 +1,18 @@
 // Place all the styles related to the contact controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#lightbulb_form {
+     position: relative;
+     z-index: 2;
+     margin: 200px;
+     margin-left: 400px;
+ }
+
+ #lightbulb_art {
+     position: absolute;
+     z-index: 1;
+ }
+
+

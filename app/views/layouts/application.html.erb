@@ -5,12 +5,24 @@
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
         $('.carousel').carousel();
       });
     </script>
+      <script>
+      $(document).ready(function(){
+        $("#flip_one").click(function(){$('#panel_one').slideToggle("slow");});
+        $("#flip_two").click(function(){$('#panel_two').slideToggle("slow");});
+        $("#flip_three").click(function(){$('#panel_three').slideToggle("slow");});
+        $("#flip_four").click(function(){$('#panel_four').slideToggle("slow");});
+        $("#flip_five").click(function(){$('#panel_five').slideToggle("slow");});
+      });
+    </script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+
   </head>
   <body>
     <div class="container-fluid">
@@ -26,13 +38,13 @@
               <li><a href="/idea_center/staff_picks">idea center</a></li>
               <li><a href="/clients/index">clients</a></li>
               <li><a href="/team_creative/overview">team creative</a></li>
-              <li><a href="/customer_lounge/overview">customer lounge</a></li>
+              <li><a href="/customer_lounge/overview">creative lounge</a></li>
               <li><a href="/contact/index">contact</a></li>
-              <form class="navbar-search pull-right" action>
+<!--               <form class="navbar-search pull-right" action>
                 <input type="text" class="search-query" placeholder="Product Search">
-              </form>
+              </form> -->
             </ul>
-          </nav>  
+          </nav>
         </div>
       </div>
 

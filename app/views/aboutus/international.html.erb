@@ -2,3 +2,99 @@
 
 <h1>Aboutus#international</h1>
 <p>Find me in app/views/aboutus/international.html.erb</p>
+
+<%= render "subnav" %>
+<div id="main_body">
+
+<!--  Carousel - consult the Twitter Bootstrap docs at
+http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="container">
+    <div class="carousel-inner">
+      <div class="item active"><!-- class of active since it's the first item -->
+        <%= image_tag "slider_images/1creative-home.png"%>
+      </div>
+     <!--  <div class="item">
+        <%= image_tag("slider_images/2creative-hob.png") %>
+      </div>
+      <div class="item">
+        <%= image_tag("slider_images/3creative-bulls.png") %>
+      </div>
+      <div class="item">
+        <%= image_tag("slider_images/4creative-fb.png") %>
+      </div>
+      <div class="item">
+        <%= image_tag("slider_images/5creative-globe.png") %>
+      </div>
+      <div class="item">
+        <%= image_tag("slider_images/6creative-skinny.png") %>
+      </div>
+      <div class="item">
+        <%= image_tag("slider_images/7creative-bears.png") %>
+      </div> -->
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls below
+    href values must reference the id for this carousel -->
+    <!-- <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a> -->
+  </div><!-- /.carousel -->
+</div>
+
+<main id="main">
+  <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "once-upon-a-time.png"%>
+      </div>
+      <div id="two" class="pull-right">
+        <a id="our story"><h3>OUR STORY.</h3></a>
+        <p>Creative stays at the forefront of the latest trends,
+        popular culture and manufacturing capabilities — <br>
+        so our clients get one-of-a-kind promotions that
+        make people say “Wow!”.</p>
+
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
+           <%= image_tag "learn.png"%></a>
+         </li>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+</div> <!-- main_body ends -->
+
+
+<div class="clearfix"></div>
+<div id="content_holder">
+  <div id="toprow">
+    <div id="social" class="pull-left">
+      <ul>
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
+          <%= image_tag("social_fb.png") %></a>
+        </li>
+        <li><a href="https://twitter.com/CPPromos" target="new">
+          <%= image_tag("social_tw.png") %></a>
+        </li>
+        <li><a href="https://www.linkedin.com/company/976398?trk=prof-0-ovw-curr_pos" target="new">
+          <%= image_tag("social_ln.png") %></a>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</main> <!-- main ends -->
+</div>
+</div>
+

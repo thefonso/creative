@@ -2,11 +2,84 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #sidebar.aboutus{
-  margin-top:10.6em;
+ margin-top:10.6em;
 }
 #content.aboutus{
  margin-top:6em;
+}
+#mainscreen.innovations{
+ background:url('aboutus/innovations.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+#tissueboxes{
+ z-index:0;
+}
+#timeline-arrow{
+  position: absolute;
+  left: 25px;
+  top: 40px;
+}
+#carousel-inner1{
+  position: absolute;
+  left: 50px;
+  width: 225px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+  #carousel-inner2{
+  position: absolute;
+  left: 300px;
+  width: 175px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+  #carousel-inner3{
+  position: absolute;
+  left: 485px;
+  width: 125px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+  #carousel-inner4{
+  position: absolute;
+  left: 635px;
+  width: 180px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+
+  #carousel-timeline{
+  width:700px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+  #carousel-timeline #small_images{
+  padding-left:5em;
+}
+
+#panel_one,#panel_two,#panel_three,#panel_four,#panel_five,#flip_one,#flip_two,#flip_three,#flip_four,#flip_five
+{
+padding:5px;
+width: 35px;
+height: 35px;
 
 }
 
+#panel_one,#panel_two,#panel_three,#panel_four,#panel_five
+{
+padding:50px;
+width: 625px;
+height: auto;
+display:none;
+background-color:#FFFFF0;
+border:solid 1px #c3c3c3;
+}
 
+.paneltext
+{
+text-align:left;
+}

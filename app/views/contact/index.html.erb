@@ -1,2 +1,83 @@
-<h1>Contact#index</h1>
-<p>Find me in app/views/contact/index.html.erb</p>
+<div class="clearfix"></div>
+
+  <div id="lightbulb_art">
+    <%= image_tag "contact_us.png"%>
+  </div>
+  <div id="lightbulb_form">
+    <table id="table1" cellpadding="10px" cellspacing="5px">
+    <tr>
+      <td align="right">NAME: &nbsp;</td>
+      <td><input type="text" name="name" /></td>
+    </tr>
+
+    <tr>
+      <td align="right">EMAIL: &nbsp;</td>
+      <td><input type="text" name="email" /></td>
+    </tr>
+
+    <tr>
+            <td align="right">SUBJECT: &nbsp;</td>
+            <td><input type="text" name="Email" /><br>
+            <select name="cars">
+            <option value="career">Career Opportunities</option>
+            <option value="feedback">Feedback</option>
+            <option value="general" selected="selected">General</option>
+            <option value="prospective" selected="selected">Prospective Client</option>
+
+            </select>
+        </td>
+    </tr>
+
+     <tr>
+        <td align="right">MESSAGE:&nbsp;</td>
+        <td><textarea rows="8" cols="15" name="message"></textarea>
+        </td>
+       </tr>
+
+    <!-- <tr>
+        <td align="right">ATTACHMENT: </td>
+        <td><input type="text" name="Email" />
+        <select name="attachment">
+            <option value="Rupees">Rupees</option>
+            <option value="Euro">Euro</option>
+            <option value="US Dollar" selected="selected">US Dollar</option>
+            </select>
+        </td>
+    </tr> -->
+
+<!--     <tr>
+      <td> <input type="button" value="Submit" align="center"/>
+      <td> <input type="button" value="Reset" />
+      </td>
+    </tr>
+
+    <form name="input" action="html_form_action.asp" method="get">
+Username: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form> -->
+
+</table>
+
+<form method="post" action="mailto:youremail@youremail.com" >
+<input type="submit" value="Send Email" align="center" />
+<td> <input type="button" value="Reset" align="right" />
+</form>
+
+
+
+
+   <!--  <form name="input" action="html_form_action.asp" method="get"> -->
+<!-- Username: <input type="text" name="user">
+ -->
+ <!-- <input type="submit" value="Submit">
+      <td> <input type="button" value="Reset" align="right" />
+
+</form> -->
+
+<!--    <form name="input" action="html_form_action.asp" method="post" action="dar.wright@gmail.com">
+Username: <input type="text" name="user">
+<input type="submit" value="Send Email">
+      <td> <input type="button" value="Reset" align="right" />
+
+</form> -->
+

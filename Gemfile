@@ -9,6 +9,8 @@ gem 'rails', '3.2.13'
 gem 'pg'
 
 group :development, :test do
+  gem 'pry'
+  gem 'better_errors'
   gem 'rspec-rails'
 end
 
@@ -24,7 +26,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '3.1.0'
 
 # Twitter Bootstrap
 gem 'bootstrap-sass'

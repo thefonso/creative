@@ -6,24 +6,16 @@
   <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
     <div class="container">
       <div class="carousel-inner">
-        <div id="mainscreen" class="sportsbar item active"><!-- class of active since it's the first item -->
-          <div id="wrapper">
-            <div id="bigtext" class="third_color pull-left">
-              <h1>A PROMOTIONAL ADVERTISING SALESMAN WALKS INTO A BAR...</h1>
-              <p></p>
-              <h5>Go ahead, tap into some fun. Play a game
-                of darts, shoot some hoops, bowl a few frames
-                with your buds or check out the latest in
-                sports promotions.<br><br> We won’t card you.</h5>
-            </div>
-            <div id="bar_pulls" class="pull-right">
-              <%= image_tag("customer_lounge/sportsbar_ontap.png") %>
-            </div>
-          </div>
-        </div>
+        <div class="item active"><!-- class of active since it's the first item -->
+
+      <div class="item active"><!-- class of active since it's the first item -->
+        <%= image_tag "customer_lounge/sports-entertainment.png"%>
+      </div>
+
       </div><!-- /.carousel-inner -->
       <!--  Next and Previous controls below
       href values must reference the id for this carousel -->
+     </div><!-- /.carousel -->
     </div><!-- /.carousel -->
   </div>
 
@@ -38,22 +30,20 @@
   <div id="toprow">
     <div id="social" class="pull-left">
       <ul>
-        <li><a href="http://facebook.com" target="new">
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
           <%= image_tag("social_fb.png") %></a>
         </li>
-        <li><a href="http://www.twitter.com/" target="new">
+        <li><a href="https://twitter.com/CPPromos" target="new">
           <%= image_tag("social_tw.png") %></a>
         </li>
-        <li><a href="https://www.linkedin.com/" target="new">
+        <li><a href="https://www.linkedin.com/company/976398?trk=prof-0-ovw-curr_pos" target="new">
           <%= image_tag("social_ln.png") %></a>
         </li>
       </ul>
     </div>
 
 
-    <div id="lightbulb" class="pull-right">
-      <%= image_tag "lightbulb.png", :class=>"bulb"%>
-    </div>
+
   </div><!-- toprow ends -->
 
   <div class="clearfix"></div>
@@ -65,20 +55,36 @@
       <div id="one" class="text_window bar_text pull-left">
         <ul>
           <div id="title_text" class="one pull-left">
-            <h4 class="first_color">sports bar</h4>
+            <h4 class="first_color">sports and entertainment promotions</h4>
           </div>
           <div id="bar_nav" class="pull-right">
-            <ul class="nav nav-pills">
+           <!--  <ul class="nav nav-pills">
               <li><a href="#">sports promotions</a></li>
               <li><a href="#">competition darts</a></li>
               <li><a href="#">hoops! there is is.</a></li>
               <li><a href="#">the big lebowski</a></li>
-            </ul>
+            </ul> -->
           </div>
           <div class="clearfix"></div>
           <div>
-            <p>Maecenas at justo quis sem rhoncus imperdiet. Phasellus tincidunt volutpat venenatis. Phasellus
-            aliquam est at justo bibendum ac tempor tellus iaculis. Donec ac est ac ligula ullamcorper.</p>
+            <p>Our sports and entertainment staff remain at the forefront of the
+              industry. We maintain strong relationships <br> with teams in the NBA, NFL, NHL, MLB as well as collegiate teams, national television networks and movie <br> studios. Our expertise in this arena provides Creative with exclusive opportunities for consultation with <br> leaders in the industry. We pride ourselves in the development of trendsetting ideas for all fans to enjoy.</p>
+
+            <p> Creative's services in the sports and entertainment industry include: </p>
+
+            <ul style="width: 25%; float:left;">
+            <li>• Award Gifting
+              <li>• Custom Apparel
+                <li>• Full Prize Packs
+                  <li>• Game Day Giveawys
+              </ul>
+
+             <ul style="width: 45%; float:left;">
+              <li>• Season ticket holders
+              <li>• Stand-alone items for consumer and press events
+                <li>• Suite Holder Gifts
+                  <li>• VIP packages
+              </ul>
           </div>
         </ul>
       </div><!-- lounge_content ends -->
@@ -86,23 +92,31 @@
       <div class="clearfix">
       </div>
 
-      <div id="two" class="text_window bar_text halfway pull-left">
-        <ul>
+      <!-- <div id="two" class="text_window bar_text halfway pull-left"> -->
+<!--         <ul>
           <li><h4 id="title_text" class="second_color">SPORTS PROMOTIONS</h4></li>
           <p class="dotted">In rhoncus risus a urna tincidunt feugiat fermentum
 leo rutrum. Nam posuere ipsum eros, ac imperdiet
 enim. Aenean lobortis pharetra venenatis</p>
-        </ul>
-      </div>
-      <div id="image1" class="sports_bar pull-left"><%= image_tag "customer_lounge/bar_promo_image1.png"%></div>
-      <div id="image2" class="sports_bar pull-left"><%= image_tag "customer_lounge/bar_promo_image2.png"%></div>
+        </ul> -->
+      <!-- </div> -->
+      <div id="image1" class="sports_images">
+      <%= image_tag "customer_lounge/sports_collage.png"%>
+    </div>
+
+    <!-- <div id="image1" class="sports_bar">
+      <%= image_tag "customer_lounge/bar_promo_image1.png"%>
+      <%= image_tag "customer_lounge/bar_promo_image2.png"%>
+      <%= image_tag "customer_lounge/bar_promo_image1.png"%>
+      <%= image_tag "customer_lounge/bar_promo_image2.png"%>
+    </div> -->
 
       <!-- text_window ends -->
 
       <div class="clearfix">
       </div>
-      
-      <div id="image1" class="sports_bar pull-left"><%= image_tag "customer_lounge/dartboard.jpg"%></div>
+
+     <!--  <div id="image1" class="sports_bar pull-left"><%= image_tag "customer_lounge/dartboard.jpg"%></div>
       <div id="three" class="text_window halfway pull-left">
         <ul>
           <li><h4 id="title_text" class="second_color">COMPETITION DARTS</h4></li>
@@ -141,19 +155,19 @@ enim. Aenean lobortis pharetra venenatis</p>
         </ol>
       </div>
 
-      </main> <!-- main ends -->
+      </main> < main ends -->
 
 
-      <aside>
-        <div id="sidebar" class="customer_lounge pull-right">
+      <!-- <aside> -->
+      <!--   <div id="sidebar" class="customer_lounge pull-right">
           <h3>news.</h3>
           <h3>happenings.</h3>
           <h3>events.</h3>
           <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
           <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
           <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
-        </div>
-      </aside>
+        </div> -->
+     <!--  </aside> -->
     </div>
   </div>
 

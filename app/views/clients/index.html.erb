@@ -7,13 +7,13 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <div class="container">
     <div class="carousel-inner">
       <div class="item active"><!-- class of active since it's the first item -->
-        <%= image_tag "client_mainscreen.jpg"%>
+        <%= image_tag "clients_page.png"%>
       </div>
     </div><!-- /.carousel-inner -->
     <!--  Next and Previous controls below
     href values must reference the id for this carousel -->
-    <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+    <!-- <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a> -->
   </div><!-- /.carousel -->
 </div>
 <div id="sub_nav_botton_bar">
@@ -30,13 +30,13 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <div id="toprow">
     <div id="social" class="pull-left">
       <ul>
-        <li><a href="http://facebook.com" target="new">
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
           <%= image_tag("social_fb.png") %></a>
         </li>
-        <li><a href="http://www.twitter.com/" target="new">
+        <li><a href="https://twitter.com/CPPromos" target="new">
           <%= image_tag("social_tw.png") %></a>
         </li>
-        <li><a href="https://www.linkedin.com/" target="new">
+        <li><a href="https://www.linkedin.com/company/976398?trk=prof-0-ovw-curr_pos" target="new">
           <%= image_tag("social_ln.png") %></a>
         </li>
       </ul>
@@ -44,33 +44,33 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
 
 
 
-    <div id="lightbulb" class="pull-right">
+   <!--  <div id="lightbulb" class="pull-right">
       <%= image_tag "lightbulb.png", :class=>"bulb"%>
-    </div>
+    </div> -->
   </div><!-- toprow ends -->
 
   <div class="clearfix"></div>
 
   <main id="clients_main">
-  <div id="content" class="pull-left">
 
-    <div id="client_logos">
-      <div id="one" class="pull-left">
-        <%= image_tag "logo_drop_placeholder.png"%>
-      </div>
-    </div>
+        <%= image_tag("customer_logos.png") %>
 
   </div> <!-- content ends -->
 
   <aside>
-    <div id="clients_sidebar" class="pull-right">
+
+      <div id="content" class="pull-left">
+
+    <div id="client_logos">
+      <div id="one" class="pull-left">
+    <!-- <div id="clients_sidebar" class="pull-right">
       <h3>news.</h3>
       <h3>happenings.</h3>
       <h3>events.</h3>
       <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
       <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
       <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
-    </div>
+    </div> -->
   </aside>
 
   </main> <!-- main ends -->

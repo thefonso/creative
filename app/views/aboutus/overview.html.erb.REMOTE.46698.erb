@@ -1,0 +1,341 @@
+<%= render "subnav" %>
+<div id="main_body">
+
+  <!--  Carousel - consult the Twitter Bootstrap docs at
+  http://twitter.github.com/bootstrap/javascript.html#carousel -->
+  <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+    <div class="container">
+      <div class="carousel-inner">
+        <div class="item active"><!-- class of active since it's the first item -->
+          <%= image_tag "slider_images/1creative-home.png"%>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/2creative-hob.png") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/3creative-bulls.png") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/4creative-fb.png") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/5creative-globe.png") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/6creative-skinny.png") %>
+        </div>
+        <div class="item">
+          <%= image_tag("slider_images/7creative-bears.png") %>
+        </div>
+      </div><!-- /.carousel-inner -->
+      <!--  Next and Previous controls below
+      href values must reference the id for this carousel -->
+      <a class="carousel-control left"  href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+  </div>
+
+
+</div> <!-- main_body ends -->
+
+
+<div class="clearfix"></div>
+<div id="content_holder">
+  <div id="toprow">
+    <div id="social" class="pull-left">
+      <ul>
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
+          <%= image_tag("social_fb.png") %></a>
+        </li>
+        <li><a href="https://twitter.com/CPPromos" target="new">
+          <%= image_tag("social_tw.png") %></a>
+        </li>
+        <li><a href="https://www.linkedin.com/company/976398?trk=prof-0-ovw-curr_pos" target="new">
+          <%= image_tag("social_ln.png") %></a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="timeline" class="pull-left">
+      <div id="timeline-arrow">
+        <%= image_tag "timeline-arrow.png", align:"center", alt:"arrow" %>
+        <!-- <img src="images/timeline-arrow.png" align="center" atl="arrow"/> -->
+
+        <div id="carousel-timeline" class="carousel slide"><!-- class of slide for animation -->
+          <div class="container">
+            <div class="carousel-inner">
+              <div class="item active"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div  class="pull-left"><%= image_tag "timeline1.png"%></div>
+                </div>
+              </div>
+
+
+
+              <!-- <div class="item"> --><!-- class of active since it's the first item -->
+                <!--    <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline1.png"%></div>
+                </div>
+              </div> -->
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline2.png"%></div>
+                </div>
+              </div>
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline3.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline4.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline5.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline6.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline7.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline8.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline9.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline10.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline11.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline12.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline13.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline14.png"%></div>
+                </div>
+              </div>
+
+              <div class="item"><!-- class of active since it's the first item -->
+                <div id="small_images" class="pull-left">
+                  <div class="pull-left"><%= image_tag "timeline15.png"%></div>
+                </div>
+              </div>
+
+
+
+            </div><!-- /.carousel -->
+          </div>
+        </div>
+
+        <a class="carousel-control left"  href="#carousel-timeline" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#carousel-timeline" data-slide="next">&rsaquo;</a>
+
+      </div>
+    </div>
+
+    <div id="lightbulb" class="pull-right">
+      <%= image_tag "lightbulb.png", :class=>"bulb"%>
+    </div>
+  </div><!-- toprow ends -->
+
+  <div class="clearfix"></div>
+
+  <aside>
+    <div id="sidebar" class="aboutus pull-right">
+      <h3>news.</h3>
+      <h3>happenings.</h3>
+      <h3>events.</h3>
+      <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
+      <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
+      <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
+    </div>
+  </aside>
+
+  <main id="main">
+  <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "once-upon-a-time.png"%>
+      </div>
+      <div id="two" class="pull-right">
+        <a id="our story"><h3>OUR STORY.</h3></a>
+        <p>Creative stays at the forefront of the latest trends,
+        popular culture and manufacturing capabilities — <br>
+        so our clients get one-of-a-kind promotions that
+        make people say “Wow!”.</p>
+        <a id="flip_one">
+          <%= image_tag "learn.png"%>
+          <div id="panel_one">testing box one</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+    
+  </div>
+    <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-right">
+        <%= image_tag "services.png"%>
+      </div>
+      <div id="two" class="pull-left" style="padding-left: 10px; width:300px;">
+        <a id="services"><h3>SERVICES.</h3></a>
+        <p>At Creative we wear a variety of hats, from custom-made promotional products, to finishing
+        techniques, fulfillment and more, there’s nothing we can’t handle.</p>
+         <a id="flip_two">
+           <%= image_tag "learn.png"%>
+           <div id="panel_two">testing box two</div>
+         </a>
+      </div>
+    </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    
+
+    <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-left">
+        <%= image_tag "design_in_1words.png"%>
+      </div>
+      <div id="two" class="pull-right">
+        <a id="design/print"><h3>DESIGN/PRINT.</h3></a>
+        <p>Creative stays at the forefront of the latest trends,
+        popular culture and manufacturing capabilities —
+        so our clients get one-of-a-kind promotions that
+        make people say “Wow!”.</p>
+        <a id="flip_three">
+          <%= image_tag "learn.png"%>
+          <div id="panel_three">testing box three</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+  
+
+    <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="one" class="pull-right">
+        <%= image_tag "aboutus/2012_CPP_lightbulb-abstract.png"%>
+      </div>
+      <div id="two" class="pull-left" style="padding-left: 10px; width:300px;">
+        <a id="innovations"><h3>INNOVATIONS.</h3></a>
+        <p>When you work with Creative, you get custom solutions designed specifically for you. We begin by listening. We learn about you, your business and your objectives. As a team, we’ll help you design a program that will get you noticed. From sales incentive programs to on-pack promotions, trade show giveaways to corporate gifts, we’ll come up with ideas that are original, meaningful — and within your budget. Take a look at just a few of the solutions we’ve tailored to provide amazing impact.</p>
+         <a id="flip_four">
+           <%= image_tag "learn.png"%>
+           <div id="panel_four">testing box two</div>
+         </a>
+      </div>
+    </div>
+  </div>
+
+      <div id="content" class="aboutus pull-left">
+       <div id="featured">
+        <div id="one" class="pull-left">
+        <%= image_tag "world.jpg"%>
+         </div>
+         <div id="two" class="pull-right">
+        <a id="international"><h3>INTERNATIONAL.</h3></a>
+        <p>Our overseas office in Hong Kong allows us full control over our production lines, ensuring on-time completion with rigorous QC/QA on each and every project.  .</p>
+         <a id="flip_five">
+           <%= image_tag "learn.png"%>
+           <div id="panel_five">testing box two</div>
+         </a>
+      </div>
+     </div>
+     </div>
+
+  <!-- <div id="content" class="aboutus pull-left">
+    <div id="featured">
+      <div id="two" class="pull-left">
+        <%= image_tag "aboutus/2012_CPP_lightbulb-abstract.png"%>
+      </div>
+      <div id="bigtext_innovations" class="pull-left" style="padding-left: 10px; width:300px;">
+        <h3>innovations.</h3>
+        <p>When you work with Creative, you get custom solutions
+        designed specifically for you. We begin by listening. We
+        learn about you, your business and your objectives. As a
+        team, we’ll help you design a program that will get you
+        noticed. From sales incentive programs to on-pack
+        promotions, trade show giveaways to corporate gifts, we’ll
+        come up with ideas that are original, meaningful — and
+        within your budget. Take a look at just a few of the
+        solutions we’ve tailored to provide amazing impact.</p>
+      </div>
+    </div> -->
+
+
+
+
+   <!--  <div class="clearfix"></div>
+    <div id="space">
+    </div>
+    <div id="featured">
+      <div id="one" class="pull-right">
+        <%= image_tag "aboutus/avion.jpg"%>
+      </div>
+      <div id="bigtext_innovations" class="pull-left" style="width:300px;">
+        <h3>a 15% increase in ROI for avion couldn't have tasted sweeter. bottoms up!</h3>
+        <p>The new tequila brand, Avion, came to us looking for a way to remind bartenders, many of whom were more familiar with more established brands of tequila, to use Avion.  While the brand enjoyed a lot of celebrity by being featured on the TV show Entourage, most consumers did not realize the brand was real. Avion needed a campaign that would urge bartenders to use Avion, therefore spreading its existence to the masses.</p>
+      </div>
+    </div>
+  </div> --><!-- content ends -->
+
+<!--   <aside>
+    <div id="sidebar" class="aboutus pull-right">
+      <h3>news.</h3>
+      <h3>happenings.</h3>
+      <h3>events.</h3>
+      <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
+      <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
+      <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
+    </div>
+  </aside> -->
+
+  </main> <!-- main ends -->
+</div>
+</div>

@@ -1,8 +1,20 @@
 // Place all the styles related to the customer_lounge controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#lounge_bulb{
+  position: absolute;
+  }
+
 #mainscreen.music{
  background:url('customer_lounge/music_mainscreen.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
+#mainscreen.customer_lounge{
+ background:url('customer_lounge/overview_mainscreen.jpg') no-repeat center;
  min-width:1219px;
  min-height:413px;
  margin: 0 auto;
@@ -16,6 +28,7 @@
  margin: 0 auto;
  background-size: 100%;
 }
+
 #mainscreen.sportsbar{
  background:url('customer_lounge/sportsbar_mainscreen.jpg') no-repeat center;
  min-width:1219px;
@@ -23,6 +36,7 @@
  margin: 0 auto;
  background-size: 100%;
 }
+
 #mainscreen.team_creative{
  background:url('team_creative/team_creative_mainscreen.jpg') no-repeat center;
  min-width:1219px;
@@ -31,8 +45,39 @@
  background-size: 100%;
 }
 
+#mainscreen.locker_room{
+ background:url('customer_lounge/locker_mainscreen2.jpg') no-repeat center;
+ min-width:1219px;
+ min-height:413px;
+ margin: 0 auto;
+ background-size: 100%;
+}
+
+#locker_person{
+ margin-top:2em;
+ padding-left:2em;
+ width:100%;
+}
+
+.locker.navbar-search {
+padding-left: 0px;
+position: relative;
+float: left;
+margin-top: 5px;
+margin-bottom: 0;
+}
+
+#title_hr{
+ width:90%;
+}
+
 #bar_pulls{
  margin-top:2.7em;
+}
+
+#locker_changer{
+  margin-top:2.7em;
+  margin-right:20.5em;
 }
 
 #wrapper{
@@ -40,24 +85,34 @@
  margin-left:auto;
  margin-right:auto;
 }
+
 #bigtext{
  width:20em;
 }
+
 #bigtext h1{
  text-transform:uppercase;
+ font-family: 'nimbus';
 }
+
 #bigtext h5{
 
 }
 
 #lounge_content{
   margin-top: 0em;
+  width:100%;
+}
+
+#content.locker_room{
+  margin-top:4em;
+  width:70%;
 }
 
 #content.sports_bar{
  margin-top: 0em;
+ width:79%;
 }
-
 
 #title_text{
  text-transform:uppercase;
@@ -69,7 +124,13 @@
 
 #lounge_content #one{
  margin-top:4em;
+ width:100%;
 }
+
+#lounge_content #one-locker{
+ width:100%;
+}
+
 .stu_contact_stu_text{
  width:48em;
 }
@@ -85,6 +146,10 @@
  width:58em;
 }
 
+.locker_room.text_window {
+ width: 100%;
+}
+
 .text_window{
  margin-bottom:1em;
 }
@@ -96,8 +161,15 @@
   border-bottom-style: dotted;
 }
 
+.text_window.thirdway {
+width: 62em;
+}
+
 #two.text_window{
   margin-right:4em;
+}
+.locker_account_text{
+  width:53%;
 }
 
 #image2{
@@ -147,6 +219,70 @@
   margin-left:2em;
 }
 
-.text_window.thirdway {
-width: 62em;
+.lounge_sports{
+  position: absolute;
+  top: 185px;
+  left: 130px;
+  width: 245px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+
+.lounge_titles{
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
+
+.lounge_lockers{
+  position: absolute;
+  top: 450px;
+  left: 130px;
+  width: 245px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+
+.lounge_stu{
+  position: absolute;
+  top: 450px;
+  left: 700px;
+  width: 200px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+
+.lounge_movies{
+  position: absolute;
+  top: 185px;
+  left: 845px;
+  width: 195px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  }
+
+.lounge_music{
+  position: absolute;
+  top: -80px;
+  left: 845px;
+  width: 240px;
+  font-family: 'nimbus';
+  font-size: 1em;
+  color:white;
+  }
+
+.lounge_bigtext{
+  position: absolute;
+  top: -50px;
+  left: 845px;
+  width: 24emx;
+  font-family: 'nimbus';
+  font-size: 1em;
+  color:white;
+  }
+
+.sports_images{
+padding-right: 40px;
+
+}
+
