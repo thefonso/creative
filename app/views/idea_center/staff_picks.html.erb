@@ -28,8 +28,7 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
   <div id="toprow">
     <div id="social" class="staff_picks pull-left">
       <ul>
-        <li><a href="https://www.facebook.com/CreativePromo
-" target="new">
+        <li><a href="https://www.facebook.com/CreativePromo" target="new">
           <%= image_tag("social_fb.png") %></a>
         </li>
         <li><a href="https://twitter.com/CPPromos" target="new">
@@ -40,11 +39,6 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
         </li>
       </ul>
     </div>
-
-<!--
-    <div id="lightbulb" class="staff_picks pull-right">
-      <%= image_tag "lightbulb.png", :class=>"bulb"%>
-    </div> -->
   </div><!-- toprow ends -->
 
   <div class="clearfix"></div>
@@ -58,14 +52,14 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
         </div>
         <div class="row-fluid">
           <ul id="staff_nav" class="nav nav-pills">
-
-           </ul>
+          </ul>
         </div>
       </div>
       <div id="one" class="pull-left">
        <!--  <%= image_tag "idea_center/staff_sharron_biernat.png"%> -->
       </div>
-      <div id="two" class="staff_pick_text pull-left">
+
+      <!-- <div id="two" class="staff_pick_text pull-left"> -->
         <!-- <ul>
           <li><h3>sharron biernat</h3></li>
           <li><h5>Account Executive</h5></li>
@@ -74,7 +68,7 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
       </div>
       <div id="image1" class="pull-left"><%= image_tag "idea_center/image_1.png"%></div>
       <div id="image2" class="pull-left"><%= image_tag "idea_center/image_2.png"%></div> -->
-    </div><!-- staff_picks_content ends -->
+    <!-- </div>staff_picks_content ends -->
 
     <div id="staff_picks_content">
       <div id="title_bar" class="portfolio">
@@ -360,89 +354,70 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
           <a id= "case studies">
           <a id="case studies"><h3>case studies</h3></a>
         </div>
-        <div class="row-fluid">
+          <div class="row-fluid">
+          </div>
+      </div>
+          <div id="two" class="portfolio_text pull-left">
+            <ul>
+            <p>Creative Promotional Products have helped develop wonderful promotional solutions. <br> Below are some of our client case studies.</p>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div id="two" class="portfolio_text pull-left">
-        <ul>
-          <p>Creative Promotional Products have helped develop wonderful promotional solutions.  Below are some of our client case studies.</p>
-        </ul>
-
-         <div id="content" class="aboutus pull-left">
-    <div id="featured">
-      <div id="one" class="pull-left">
-        <%= image_tag "kfc_casestudy.png"%>
-      </div>
-      <div id="bigtext_innovations" class="pull-left" style="padding-left: 18px; width:300px;">
-        <h3>KFC Cooler Bag</h3>
-        <p>Client: KFC <br>
-        Goal: Develop a picnic style cooler bag promoting the KFC brand as an in-store incentive gift item. <br>
-        Result: KFC targeted picnic cooler pack increased sales over 25% during the promotional period. </p>
-      </div>
-    </div>
-    <div id="one" class="pull-right">
-        <%= image_tag "kfc-ghost.png"%>
-      </div>
-
-    <div class="clearfix"></div>
-    <div id="space">
-    </div>
-    
-    <div id="featured">
-        <div id="one" class="pull-right">
-    <%= image_tag "usa-ghost.png"%>
-    </div>
-      <div id="one" class="pull-right">
-        <%= image_tag "philosophy_casestudy.png"%>
-      </div>
-      <div id="bigtext_innovations" class="pull-left" style="width:300px;">
-        <h3>USA Network</h3>
-        <p>Client: USA Network <br>
-        Goal: To design and produce an item for the MOFY ( Super Fans) promotion.<br>
-        Result: Creative designed a fully custom Phil’sosophy button that was handed out as part of USA Networks MOFY promotion. The MOFY promotion helped raise awareness of the syndication of Modern Family to USA Network. The promotion was so successful that the buttons were handed out to the full cast.  </p>
-      </div>
-    </div>
 
 
     <div id="content" class="aboutus pull-left">
-      <div id="featured">
-        <div id="one" class="pull-left">
-          <%= image_tag "bears_casestudy.png"%>
-        </div>
-        <div id="bigtext_innovations" class="pull-left" style="padding-left: 18px; width:300px;">
-        <h3>Chicago Bears</h3>
-        <p> Client: Chicago Bears <br>
-        Goal: Creative was asked to create a custom, high-end influencer package for the Chicago Bears Believe in Monsters campaign. A select group of local and national celebrities who are considered “True Bears Fans” received the influencer gift package. Their participation in the campaign consisted of posting images of the gift package on Twitter, Instagram, and Facebook, with the hashtag #BelieveinMonsters.
-        Result: The campaign immediately built a buzz on Twitter &amp; Instagram.  The total potential impressions on Twitter for #BelieveinMonsters was 29,324,864. </p>
-
-         <div id="one" class="pull-left">
-        <%= image_tag "bearhead-ghost.png"%>
-        </div>
-        </div>
+      <div id="one" class="pull-left" >
+        <%= image_tag "kfc_casestudy.png"%>
       </div>
+        <div id="bigtext_innovations" class="pull-left" >
+          <h3>KFC Cooler Bag</h3>
+          <p>Client: KFC <br>
+          Goal: Develop a picnic style cooler bag promoting the KFC brand as an in-store incentive gift item. <br>
+          Result: KFC targeted picnic cooler pack increased sales over 25% during the promotional period. </p>
+        </div>
+          <div id="one" class="pull-left">
+            <%= image_tag "kfc-ghost.png"%>
+          </div>
+    </div>
+
+
+    <div id="content" class="aboutus pull-right">
+      <div id="one" class="pull-left" >
+          <%= image_tag "usa-ghost.png"%>
+      </div>
+      
+        <div id="bigtext_innovations" class="pull-left">
+          <h3>USA Network</h3>
+          <p>Client: USA Network <br>
+          Goal: To design and produce an item for the MOFY ( Super Fans) promotion.<br>
+          Result: Creative designed a fully custom Phil’sosophy button that was handed out as part of USA Networks MOFY promotion. The MOFY promotion helped raise awareness of the syndication of Modern Family to USA Network. The promotion was so successful that the buttons were handed out to the full cast.  </p>
+        </div>
+          <div id="one" class="pull-left">
+            <%= image_tag "philosophy_casestudy.png"%>
+          </div>
     </div>
     
 
-    <div class="clearfix"></div>
-    <div id="space">
+
+    <div id="content" class="aboutus pull-left">
+      <div id="one" class="pull-left" >
+          <%= image_tag "bears_casestudy.png"%>
+      </div>
+      
+        <div id="bigtext_innovations" class="pull-left">
+          <h3>Chicago Bears</h3>
+          <p> Client: Chicago Bears <br>
+          Goal: Creative was asked to create a custom, high-end influencer package for the Chicago Bears Believe in Monsters campaign. A select group of local and national celebrities who are considered “True Bears Fans” received the influencer gift package. Their participation in the campaign consisted of posting images of the gift package on Twitter, Instagram, and Facebook, with the hashtag #BelieveinMonsters.
+          Result: The campaign immediately built a buzz on Twitter &amp; Instagram.  The total potential impressions on Twitter for #BelieveinMonsters was 29,324,864. </p>
+        </div>
+          <div id="one" class="pull-left">
+            <%= image_tag "bearhead-ghost.png"%>
+          </div>
     </div>
-    <div id="featured">
-      <!-- <div id="one" class="pull-right">
-        <%= image_tag "philosophy_casestudy.png"%>
-      </div>
-      <div id="bigtext_innovations" class="pull-left" style="width:300px;">
-        <h3>USA Network</h3>
-        <p>Client: USA Network <br>
-        Goal: To design and produce an item for the MOFY ( Super Fans) promotion.<br>
-        Result: Creative designed a fully custom Phil’sosophy button that was handed out as part of USA Networks MOFY promotion. The MOFY promotion helped raise awareness of the syndication of Modern Family to USA Network. The promotion was so successful that the buttons were handed out to the full cast.  </p>
-      </div>
-    </div> -->
 
-  </div>
-      </div>
-    </div><!-- staff_picks_content ends
+</div><!-- staff_picks_content ends -->
 
-  <aside>
+ <!--  <aside>
     <! <div id="sidebar" class="staff_picks pull-right">
       <h3>news.</h3>
       <h3>happenings.</h3>
@@ -450,9 +425,9 @@ http://twitter.github.com/bootstrap/javascript.html#carousel -->
       <p>The 5th Annual Spring Open House is scheduled for June 13th.</p>
       <p>Creative is proud to announce the addition of Jonathan Lee to our family.</p>
       <p>Takeda Pharmaceuticals commits to a year-long promo program.</p>
-    </div> -->
+    </div>
   </aside>
-
+ -->
   </main> <!-- main ends -->
 </div>
 </div>
