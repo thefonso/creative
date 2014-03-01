@@ -245,7 +245,7 @@ line-height: 1;
 #sidebar{
   margin: 0 auto;
   //margin-top: 24em;
-  background:image_url('sidebar.png');
+  background-image:url('sidebar.png');
   width:9.5em;
   height:28.5em;
   padding-top:1.25em;
@@ -267,7 +267,7 @@ line-height: 1;
   z-index:0;
   position:absolute;
   /* margin: 0 auto; */
-  background:image_url('background_aboutus.jpg');
+  background-image:url('background_aboutus.jpg');
   background-repeat: repeat-x;
   background-color: #ffffff;
 }
@@ -305,7 +305,7 @@ line-height: 1;
   margin-top:1em;
   margin-right: 8em;
   margin-left: 5em;
-  background:image_url('timeline_background.png');
+  background-image:url('timeline_background.png');
   background-repeat: no-repeat;
   z-index:1;
   position:relative;
