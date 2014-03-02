@@ -1,0 +1,138 @@
+<html>
+<head>
+    <title></title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<style type="text/css">
+#bigdiv {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+/*text-align: center;*/
+background-color: blue;
+}
+
+#smalldiv {
+/*position: absolute;*/
+top: 30px;
+/*left: 300px;*/
+z-index: 1000;
+text-align: center;
+}
+
+.pull-right{
+  float:right;
+}
+
+.pull-left{
+  float:left;
+}
+
+.clearfix{
+  clear:both;
+}
+
+#assoc_contact_info .middle {
+vertical-align: middle;
+margin-top: .5em;
+margin-left: 5em;
+margin-right: auto;
+}
+.staff_pick_text.assoc {
+width: 32em;
+}
+.staff_pick_text ul {
+border-bottom-width: .15em;
+border-bottom-style: dotted;
+}
+.yellow_button{
+  margin-left: 1.5em;
+  background-image:url('yellow_button.png');
+  padding-top: 0.7em;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  width: 114px;
+  height: 42px;
+}
+
+.yellow_button p{
+  height:100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#icon_twitter{
+  margin-right: .25em;
+}
+
+/*#two {
+    margin-left: 225px;
+}*/
+
+
+</style>
+
+
+</head>
+<body>
+
+    <!-- <div id="bigdiv">This is a big div</div> -->
+    <!-- <div id="smalldiv">Small div</div> -->
+    
+        <div id="bigdiv" class="pull-left">
+            <img src="images/jim_ingraffia.png" height="106" width="107">
+
+            <div id="two" class="staff_pick_text assoc pull-left">
+              <ul>
+                <li>
+                  <h3>jim ingraffia</h3>
+                </li>
+                <li>
+                  <h5>Account Executive</h5>
+                </li>
+                <p>
+                  "A good basic selling idea, involvement and relevancy,
+                of course, are as important as ever, but in the
+                advertising din of today, unless you make yourself
+                noticed and believed, you haven't anything."
+                </p>
+              </ul>
+
+                <div id="assoc_contact_info">
+                    <div class="left yellow_button pull-left">
+                      <p>portfolio</p>
+                    </div>
+                    <div class="middle pull-left">
+                        <img class="pull-left" src="images/key.png" height="22" width="49">
+                      <p class="pull-left">my locker</p>
+                    </div>
+                    <div class="right pull-right">
+                      <a href="http://www.twitter.com/" target="new">
+                        <img src="images/social_tw.png" id="icon_twitter">
+                      </a>
+                      <a href="https://www.linkedin.com/" target="new">
+                        <img src="images/social_ln.png">
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="smalldiv">
+          <img src="images/meehan_tom_card.png">
+        </div>
+
+            <script>
+              $("#smalldiv").hover(function() {
+              $("#smalldiv").animate({marginLeft: 500});
+                }, function() {
+              $("#smalldiv").animate({marginLeft: 5});
+              });
+            </script>
+
+        
+
+</body>
+</html>
