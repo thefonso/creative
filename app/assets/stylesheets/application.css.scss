@@ -155,8 +155,18 @@ line-height: 1;
 #main_nav li > a:hover{
   background-color: #ffffff;
   border: 1px solid #ffd200;
+
   border-radius: 0;
 }
+
+.current {
+  background-color: #b23758;
+  color: #ffffff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
 #main_nav li > a{
   background-color: #ffffff;
   border: 1px solid #ffffff;
