@@ -106,10 +106,6 @@
   background-repeat: no-repeat;
 }
 
-#staff_picks_content.sales_assoc{
-  width: 60.6em;
-}
-
 #sidebar.teamcreative{
   margin-top:0em;
 }
@@ -121,15 +117,15 @@ height:400px;
 overflow:scroll;
 }
 
-/** Style for the body **/
-//  body {
-//     font: 12px Tahoma, Arial, Helvetica, Sans-Serif;
-// }
-/** Style for the button & div **/
+#staff_picks_content {
+width: 63.6em;
+}
+
 #bigdiv {
   position: absolute;
   z-index: 1;
   background-color: white;
+  height: 210px;
 }
 
 #smalldiv {
